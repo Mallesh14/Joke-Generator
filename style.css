@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+body{
+    background: linear-gradient(180deg,rgb(245, 245, 148)0%,yellow 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    color: rgb(211, 131, 34);
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    /* margin-top: 5%; */
+    font-size: 70px;
+    text-align: center;
+}
+#button{
+    width: 168px;
+    height: 60px;
+    background: white;
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    line-height: 50px;
+    border-radius: 50px 50px 50px 50px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 4px whitesmoke;
+}
+#jokecontent,#joke{
+    font-size: 40px;
+    line-height: 100px;
+}
